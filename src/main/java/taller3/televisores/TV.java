@@ -71,31 +71,26 @@ public class TV{
     }
 //++++++++++++metodo para cambiar canal ++++++++++++
     public void canalUp(){
-        private int newChannel1 = this.canal;
-        private boolean state3 = this.estado;
-        if (newChannel1 < 121 && state3 == true){
+        if (this.canal < 121 && this.estado == true){
             this.canal++;
         }
     }
     public void canalDown(){
-        private int newChannel2 = this.canal;
-        private boolean state3 = this.estado;
-        if (newChannel2 > 0 && state3 == true){
+
+        if (this.canal > 0 && this.estado == true){
             this.canal--;
         }
     }
 //++++++++++metodo para cambiar volumen+++++++++++++
     public void volumenUp(){
-        private int newNumber1 = this.volumen;
-        private boolean state1 = this.estado;
-        if (newNumber1 <= 7  && state1 == true){
+
+        if (this.volumen <= 7  && this.estado == true){
             this.volumen++;
         }
     }
     public void volumenDown(){
-        private int newNumber2 = this.volumen;
-        private boolean state2 = this.estado;
-        if (newNumber2 >= 0 && state2 == true){
+
+        if (this.volumen >= 0 && this.estado == true){
             this.volumen--;
         }
     }
