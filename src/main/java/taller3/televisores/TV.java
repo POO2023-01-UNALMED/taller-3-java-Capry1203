@@ -12,6 +12,13 @@ public class TV{
         this.estado = estado;
         TV.numTV++;
     }
+//+++++++++ metodo contador +++++++++++++++++
+    public static int getNumTV(){
+        return numTV;
+    }
+    public static void setNumTV(int numTV){
+        TV.numTV = numTV;
+    }
 //+++++++++metodos de acceso a atributos++++++++
     public Marca getMarca(){
         return this.marca;
