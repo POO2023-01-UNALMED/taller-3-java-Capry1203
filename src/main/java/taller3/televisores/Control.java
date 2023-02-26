@@ -16,12 +16,20 @@ public class Control{
     public void canalDown(){
         tv.canalDown();
     }
-//+++++++++++++++++++++++++++++
+//++++++++++ Volumen++++++++++
     public void volumenUp(){
         tv.volumenUp();
     }
     public void volumenDown(){
         tv.volumenDown();
+    }
+//+++++++++ Encendido y apagado++++++
+
+    public void turnOn(){
+        tv.turnOn();
+    }
+    public void turnOff(){
+        tv.turnOff();
     }
 //++++++++++ set Canal +++++++++
 
