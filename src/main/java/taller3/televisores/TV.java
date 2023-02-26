@@ -91,13 +91,13 @@ public class TV{
 //++++++++++metodo para cambiar volumen+++++++++++++
     public void volumenUp(){
 
-        if (this.volumen <= 7  && this.estado == true){
+        if (this.volumen < 7  && this.estado == true){
             this.volumen++;
         }
     }
     public void volumenDown(){
 
-        if (this.volumen >= 0 && this.estado == true){
+        if (this.volumen > 0 && this.estado == true){
             this.volumen--;
         }
     }
